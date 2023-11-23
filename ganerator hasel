@@ -1,0 +1,10 @@
+import random
+lower = "abcdefghijklmnoprstuwxyz"
+upper = "ABCDEFGHIJKLMNOPRSUWXYZ"
+numbers = "1234567890"
+symbols = "[]{}()*;/,._-"
+all_chars  = lower + upper + numbers + symbols
+lenght = 16
+password = "".join(random.sample (all_chars,lenght))
+print(password)
+  
